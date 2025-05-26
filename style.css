@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.light {
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+header {
+  padding: 20px;
+  background: #1f1f1f;
+  text-align: center;
+}
+
+body.light header {
+  background: #ffffff;
+}
+
+#search {
+  margin-top: 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: none;
+  background: #2b2b2b;
+  color: white;
+}
+
+body.light #search {
+  background: #e0e0e0;
+  color: black;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+select, button {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+body.light .card {
+  background: #ffffff;
+  color: black;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 10px 0 0 0;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #ccc;
+}
+
+.play-btn {
+  background: #e91e63;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#now-playing {
+  padding: 15px;
+  background: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+body.light #now-playing {
+  background: #ddd;
+}
