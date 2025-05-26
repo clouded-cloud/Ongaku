@@ -1,7 +1,8 @@
 
 const musicData = [
   {
-    title: "Sakura Nights",
+    title: "Otonoke",
+    artist: "Creepy Nuts",
     artist: "YOASOBI",
     genre: "jpop",
     image: "otonoke.jpg",
@@ -9,57 +10,92 @@ const musicData = [
   },
 
  {
-    title: "Sakura Nights",
-    artist: "YOASOBI",
+    title: "Mixed Nuts",
+    artist: "Official髭男dism",
     genre: "jpop",
-    image: "https://i.scdn.co/image/ab67616d0000b273c1b6b2b7c3b0b7d6d3f3c4f1",
-    audio: "ThirtyFourBrick - Story Teller [Music Video].mp3"
-  },
-
- {
-    title: "Sakura Nights",
-    artist: "YOASOBI",
-    genre: "jpop",
-    image: "https://i.scdn.co/image/ab67616d0000b273c1b6b2b7c3b0b7d6d3f3c4f1",
-    audio: "ThirtyFourBrick - Story Teller [Music Video].mp3"
+    image: "mixed nuts.jpg",
+    audio: "Official髭男dism - Mixed Nuts Official Video.mp3"
   },
 
    {
-    title: "Sakura Nights",
-    artist: "YOASOBI",
-    genre: "jpop",
-    image: "https://i.scdn.co/image/ab67616d0000b273c1b6b2b7c3b0b7d6d3f3c4f1",
-    audio: "ThirtyFourBrick - Story Teller [Music Video].mp3"
+    title: "Overdose",
+    artist: "なとり (Natori)",
+    genre: "anime",
+    image: "natori.jpg",
+    audio: "なとり - Overdose.mp3"
   },
 
  {
-    title: "Sakura Nights",
-    artist: "YOASOBI",
+    title: "silhouette",
+    artist: "Kana-Boon",
     genre: "jpop",
-    image: "https://i.scdn.co/image/ab67616d0000b273c1b6b2b7c3b0b7d6d3f3c4f1",
-    audio: "ThirtyFourBrick - Story Teller [Music Video].mp3"
+    image: "kana boon.jpg",
+    audio: "KANA-BOON - Silhouette.mp3"
+  },
+
+   {
+    title: "Black Catcher",
+    artist: "Vicke Blanka",
+    genre: "jpop",
+    image: "black catcher.jpg",
+    audio: "ビッケブランカ - Black Catcher  Vicke Blanka - Black Catcher.mp3"
   },
 
   {
-    title: "Kaze ni Nare",
-    artist: "LiSA",
-    genre: "rock",
-    image: "https://i.scdn.co/image/ab67616d0000b2735e8c679a207108e3b507f5b1",
-    audio: "assets/kaze-ni-nare.mp3"
-  },
-  {
-    title: "Shinunoga E-Wa",
-    artist: "Fujii Kaze",
+    title: "Otonoke",
+    artist: "Creepy Nuts",
+    artist: "YOASOBI",
     genre: "jpop",
-    image: "https://i.scdn.co/image/ab67616d0000b273e9e6fa72a1c1baf2b3d4f308",
-    audio: "assets/shinunoga-e-wa.mp3"
+    image: "otonoke.jpg",
+    audio: "MVCreepyNuts-オトノケ(Otonoke).mp3"
+  },
+
+  {
+    title: "Otonoke",
+    artist: "Creepy Nuts",
+    artist: "YOASOBI",
+    genre: "jpop",
+    image: "otonoke.jpg",
+    audio: "MVCreepyNuts-オトノケ(Otonoke).mp3"
+  },
+
+  {
+    title: "Otonoke",
+    artist: "Creepy Nuts",
+    artist: "YOASOBI",
+    genre: "jpop",
+    image: "otonoke.jpg",
+    audio: "MVCreepyNuts-オトノケ(Otonoke).mp3"
+  },
+
+ {
+    title: "Inferno",
+    artist: "Mrs. GREEN APPLE",
+    genre: "jpop",
+    image: "green apple.jpg",
+    audio:"Mrs. GREEN APPLE - インフェルノInferno.mp3"
+  },
+
+  {
+    title: "廻廻奇譚",
+    artist: "Eve",
+    genre: "rock",
+    image: "eve mv.jpg",
+    audio: "廻廻奇譚 - Eve MV.mp3"
   },
   {
-    title: "Blue Bird",
-    artist: "Ikimono Gakari",
+    title: "SPECIALZ",
+    artist: "King Gnu",
+    genre: "jpop",
+    image: "specialz.jpg",
+    audio: "King Gnu - SPECIALZ.mp3"
+  },
+  {
+    title: "Overdose",
+    artist: "なとり (Natori)",
     genre: "anime",
-    image: "https://i.scdn.co/image/ab67616d0000b2732a3c3f86bc104dc7316f894c",
-    audio: "assets/blue-bird.mp3"
+    image: "natori.jpg",
+    audio: "なとり - Overdose.mp3"
   }
 ];
 
